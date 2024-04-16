@@ -6,7 +6,7 @@
            
         </h2>    
         <p>{{ foodDesc }}</p>
-        <button @click="toggleFavorite">Favorite</button>
+        <button @click="toggleFavorite" :aria-pressed="isFavorite">Favorite</button>
         
     </div>
 </template>

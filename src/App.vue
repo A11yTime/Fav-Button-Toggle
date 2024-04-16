@@ -10,15 +10,18 @@
     @toggle-favorite="receiveEmit"
      />
   </div>
+  <SlotsEl />
 </template>
 
 <script>
-import FoodItem from './components/FoodItem.vue'
+// import FoodItem from './components/FoodItem.vue'
+import SlotsEl from './components/SlotsEl.vue'
 
 export default {
   name: 'App',
   components: {
-   FoodItem
+  //  FoodItem,
+   SlotsEl
   },
   data() {
      return {
